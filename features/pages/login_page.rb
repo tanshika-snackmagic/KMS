@@ -13,5 +13,5 @@ class OpenTender < SitePrism::Page
 	element :ot_password, :id => 'password'
 	element :ot_login_button, '#form-login > input[type=submit]'
 	element :loggedin_text, '#top > div.content > div > div.content__header > h1' #Find OT login text
-	element :orders, '#app > div > div > div > div.sidebar > div > nav > ul > li:nth-child(1) > a > span > span.nav__name' #order in left column
+	element :orders, '#app > div > div > div > div.sidebar > div > nav > ul > li:nth-child(1) > a > span > span.nav__name'
 end
