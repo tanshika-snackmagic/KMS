@@ -24,5 +24,5 @@ Then(/^User should be Successful$/) do
   sleep 5
   @ot.orders.click
   @home.load
-  sleep 5
+  #sleep 5
 end
