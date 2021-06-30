@@ -3,7 +3,7 @@ class KMS < SitePrism::Page
 	element :login_text, 'body > div > div > div > div.main-data > div > div > h3' #Find "Please Login" text on the page
 	element :email, :id => 'admin_email'
 	element :password, :id => 'admin_password'
-	element :login_button, '#new_admin > div.actions > input' #Find "Log in" button on the page
+	element :login_button, '#new_admin > div.actions > inputt' #Find "Log in" button on the page
 end
 
 class OpenTender < SitePrism::Page
